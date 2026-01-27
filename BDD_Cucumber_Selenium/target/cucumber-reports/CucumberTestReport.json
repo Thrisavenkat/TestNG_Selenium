@@ -1,0 +1,98 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1629101000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user must be in chrome browser",
+            "match": {
+              "location": "StepDefinitionPackage.TC001_documentation.presetup()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-27T10:17:36.097Z",
+        "line": 26,
+        "name": "Verify the Documentation",
+        "description": "",
+        "id": "cucumber.io-home-page-testing;verify-the-documentation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1603801600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user is in cucumber.io home page",
+            "match": {
+              "location": "StepDefinitionPackage.TC001_documentation.The_user_is_in_cucumberio_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102145500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user clicks on Documentation link",
+            "match": {
+              "location": "StepDefinitionPackage.TC001_documentation.The_user_clicks_on_Documentation_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1089116100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user can view the page content with what is cucumber",
+            "match": {
+              "location": "StepDefinitionPackage.TC001_documentation.The_user_can_view_the_page_content_with_what_is_cucumber()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "cucumber.io home page testing",
+    "description": "",
+    "id": "cucumber.io-home-page-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/CucumberFeatureFile/doc1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
