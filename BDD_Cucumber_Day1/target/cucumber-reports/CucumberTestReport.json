@@ -1,0 +1,109 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2026-01-24T09:59:30.116Z",
+        "line": 27,
+        "name": "To check I can perform addition",
+        "description": "",
+        "id": ";to-check-i-can-perform-addition",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a global administrator named greg",
+            "match": {
+              "location": "comBDDElementframework.StepsDef1.presetup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am holding the calculator",
+            "match": {
+              "location": "comBDDElementframework.StepsDef1.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter the first number",
+            "match": {
+              "location": "comBDDElementframework.StepsDef1.step2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on + symbol",
+            "match": {
+              "location": "comBDDElementframework.StepsDef1.step3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on the second number",
+            "match": {
+              "location": "comBDDElementframework.StepsDef1.step4()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I must be able to view the sum of the numbers",
+            "match": {
+              "location": "comBDDElementframework.StepsDef1.step5()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To test the basic calculator",
+    "description": "",
+    "id": "to-test-the-basic-calculator",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/comBDDElementframework/TestFeature1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
