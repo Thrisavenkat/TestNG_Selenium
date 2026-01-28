@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-17T15:52:43 IST" name="Default suite" finished-at="2026-01-17T15:53:04 IST" duration-ms="20491">
+    <groups>
+    </groups>
+    <test started-at="2026-01-17T15:52:43 IST" name="Default test" finished-at="2026-01-17T15:53:04 IST" duration-ms="20491">
+      <class name="com.access.seleniumday1_lib.Awesome_TC01">
+        <test-method signature="invokeAppAwesome()[pri:1, instance:com.access.seleniumday1_lib.Awesome_TC01@44040454]" started-at="2026-01-17T15:52:43 IST" name="invokeAppAwesome" finished-at="2026-01-17T15:52:44 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeAppAwesome -->
+        <test-method signature="Fetch_And_Validate_Title()[pri:2, instance:com.access.seleniumday1_lib.Awesome_TC01@44040454]" started-at="2026-01-17T15:52:44 IST" name="Fetch_And_Validate_Title" finished-at="2026-01-17T15:52:44 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fetch_And_Validate_Title -->
+        <test-method signature="Counts_Link_Test()[pri:3, instance:com.access.seleniumday1_lib.Awesome_TC01@44040454]" started-at="2026-01-17T15:52:44 IST" name="Counts_Link_Test" finished-at="2026-01-17T15:53:04 IST" duration-ms="19406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Counts_Link_Test -->
+      </class> <!-- com.access.seleniumday1_lib.Awesome_TC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
