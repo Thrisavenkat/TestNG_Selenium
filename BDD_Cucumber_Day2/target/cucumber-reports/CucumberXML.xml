@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.212">
+    <testcase classname="User Login Update Status" name="Title of your scenario outline" time="0.014">
+        <system-out><![CDATA[Given The user is in Login form.............................................passed
+When The user enters "Trisha" in username field.............................passed
+And The user enters "trisha123" in password field...........................passed
+* The user clicks on Login button...........................................passed
+Then The user get the "pass" message as status..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User Login Update Status" name="Title of your scenario outline 2" time="0.006">
+        <system-out><![CDATA[Given The user is in Login form.............................................passed
+When The user enters "Naga" in username field...............................passed
+And The user enters "agan1" in password field...............................passed
+* The user clicks on Login button...........................................passed
+Then The user get the "fail" message as status..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User Login Update Status" name="Title of your scenario outline 3" time="0.005">
+        <system-out><![CDATA[Given The user is in Login form.............................................passed
+When The user enters "Swetha" in username field.............................passed
+And The user enters "Swetha123" in password field...........................passed
+* The user clicks on Login button...........................................passed
+Then The user get the "pass" message as status..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
