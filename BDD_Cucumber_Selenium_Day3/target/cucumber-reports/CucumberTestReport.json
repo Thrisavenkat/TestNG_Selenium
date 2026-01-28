@@ -1,0 +1,254 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1834112500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user must be in chrome browser",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.setup()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-28T06:11:26.796Z",
+        "line": 20,
+        "name": "Validate signup",
+        "description": "",
+        "id": "to-perform-signup;validate-signup;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5915575300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user in the signup page",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81671000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user enter \"trishavenkat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"trishavenkat\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionFile.StepDef.EnterName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103595600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user enter the \"6381703487\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6381703487\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitionFile.StepDef.phoneno(java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5012354300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user click on i am not a robot",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.clickRobot()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput type\u003d\"submit\" name\u003d\"ctl00$phBody$SignUp$btnContinue\" value\u003d\"Continue\" onclick\u003d\"javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\u0026quot;ctl00$phBody$SignUp$btnContinue\u0026quot;, \u0026quot;\u0026quot;, true, \u0026quot;vgSignUp\u0026quot;, \u0026quot;\u0026quot;, false, false))\" id\u003d\"ctl00_phBody_SignUp_btnContinue\" class\u003d\"btn btn-block border themeborder themecolor mb-2 signupcontinue mt-3\"\u003e is not clickable at point (950, 627). Other element would receive the click: \u003ciframe title\u003d\"recaptcha challenge expires in two minutes\" name\u003d\"c-xhijyl9zykyt\" frameborder\u003d\"0\" scrolling\u003d\"no\" sandbox\u003d\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation\" src\u003d\"https://www.google.com/recaptcha/api2/bframe?hl\u003den\u0026amp;v\u003dPoyoqOPhxBO7pBk68S4YbpHZ\u0026amp;k\u003d6LcWegclAAAAANuIZ3_JgCoh-naBjY69vaCvY2Xj\u0026amp;bft\u003d0dAFcWeA7Grr-uSCeYT0TU8LWdZBBI6-DMU5yd0Q64l9rfmp1JmvUobL7IeiJGhNDaK-nQvqZIeiAzgOebWTyFYyFu_xBThc9bxA\" style\u003d\"width: 400px; height: 580px;\"\u003e\u003c/iframe\u003e\n  (Session info: chrome\u003d144.0.7559.97)\nBuild info: version: \u00274.38.0\u0027, revision: \u00276b412e825c*\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [726afe7cded72c08fa7baa116e1a3ead, clickElement {id\u003df.E577A7B4117941DA0322675F201DA7CD.d.58B616FE11FF6C8B5CB722B8EA072C6D.e.98}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\\Users\\NAGATH~1.V\\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64198}, goog:processID: 21380, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64198/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (726afe7cded72c08fa7baa116e1a3ead)] -\u003e xpath: //input[@name\u003d\u0027ctl00$phBody$SignUp$btnContinue\u0027]]\nSession ID: 726afe7cded72c08fa7baa116e1a3ead\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)\r\n\tat StepDefinitionFile.StepDef.clickContinue(StepDef.java:47)\r\n\tat ✽.The user click on continue(file:///C:/Users/nagathrisa.v/eclipse-workspace/BDD_Cucumber_Selenium_Day3/src/test/java/FeatureFile/LoginValidate.feature:13)\r\n",
+              "duration": 1127060500,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "The user click on continue",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.clickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "the user will enter in the website",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.EnterWebsite()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1577049900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user must be in chrome browser",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.setup()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-01-28T06:11:40.927Z",
+        "line": 21,
+        "name": "Validate signup",
+        "description": "",
+        "id": "to-perform-signup;validate-signup;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5399289700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user in the signup page",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104223100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user enter \"name2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionFile.StepDef.EnterName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158000100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user enter the \"89000347678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"89000347678\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitionFile.StepDef.phoneno(java.lang.String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5013715900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user click on i am not a robot",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.clickRobot()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 303212200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user click on continue",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.clickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user will enter in the website",
+            "match": {
+              "location": "StepDefinitionFile.StepDef.EnterWebsite()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To perform SignUp",
+    "description": "",
+    "id": "to-perform-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/LoginValidate.feature",
+    "tags": []
+  }
+]
