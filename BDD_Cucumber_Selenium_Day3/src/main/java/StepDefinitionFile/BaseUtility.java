@@ -1,13 +1,17 @@
 package StepDefinitionFile;
-
 import java.time.Duration;
+import java.io.File;
+import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.cucumber.messages.internal.com.google.common.io.Files;
 public class BaseUtility {
-	WebDriver driver;
+  WebDriver driver;
   public void maximizeBrowser(WebDriver driver) {
 	  driver.manage().window().maximize();
   }     
@@ -18,7 +22,7 @@ public class BaseUtility {
 	  driver.navigate().back();
   }
   public void refresh(WebDriver driver) {
-	  driver.navigate().refresh();
+  	  driver.navigate().refresh();
   }
   public void deleteCookies(WebDriver driver) {
 	  driver.manage().deleteAllCookies();
@@ -40,5 +44,10 @@ public class BaseUtility {
   }
   public void explicitWait(WebDriver driver,int time) {
 	  WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(time));
+  }
+  public void Screenshot(WebDriver driver) throws IOException {
+	  File src3=
+			  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	  		  Files.copy(src3,new File("C:/Users/nagathrisa.v/eclipse-workspace/BDD_Cucumber_Selenium_Day3/ScreenShots/testsrc.png"));
   }
 }

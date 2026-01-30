@@ -1,33 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestRunnerFile.TestNG_Runner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.55 s <<< FAILURE! -- in TestRunnerFile.TestNG_Runner
-TestRunnerFile.TestNG_Runner.runScenario["Validate signup", "Optional[To perform SignUp]"](2) -- Time elapsed: 4.415 s <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=144.0.7559.97)
-Build info: version: '4.38.0', revision: '6b412e825c*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [989a288278dde2b8dae62f7c438a220b, findElement {value=//input[@id='ctl00_phBody_SignUp_txtName'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\Users\NAGATH~1.V\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57154}, goog:processID: 16536, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57154/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 989a288278dde2b8dae62f7c438a220b
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at StepDefinitionFile.StepDef.EnterName(StepDef.java:32)
-	at ✽.The user enter "name2"(file:///C:/Users/nagathrisa.v/eclipse-workspace/BDD_Cucumber_Selenium_Day3/src/test/java/FeatureFile/LoginValidate.feature:10)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.65 s <<< FAILURE! -- in TestRunnerFile.TestNG_Runner
+TestRunnerFile.TestNG_Runner.runScenario["Validate signup using Excel data", "Optional[To perform SignUp]"](1) -- Time elapsed: 9.395 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.wd" is null
+	at StepDefinitionFile.page.LaunchApp(page.java:22)
+	at StepDefinitionFile.StepDef.signup_page(StepDef.java:108)
+	at ✽.The user in the signup page(file:///C:/Users/nagathrisa.v/eclipse-workspace/BDD_Cucumber_Selenium_Day3/src/test/java/FeatureFile/LoginValidate.feature:8)
 

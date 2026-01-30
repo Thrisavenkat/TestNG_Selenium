@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7348424600,
+              "duration": 12379148300,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2026-01-29T09:28:58.675Z",
+        "start_timestamp": "2026-01-30T06:11:28.849Z",
         "line": 7,
         "name": "Validate signup using Excel data",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3997222300,
+              "duration": 4171365900,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2765312400,
+              "duration": 1286955800,
               "status": "passed"
             },
             "line": 9,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 45013922600,
+              "duration": 45010392200,
               "status": "passed"
             },
             "line": 10,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 4043803100,
+              "duration": 3572375100,
               "status": "passed"
             },
             "line": 11,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 1000100,
+              "duration": 455458300,
               "status": "passed"
             },
             "line": 12,
